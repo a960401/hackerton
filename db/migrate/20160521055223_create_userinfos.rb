@@ -1,6 +1,6 @@
 class CreateUserinfos < ActiveRecord::Migration
   def change
-    create_table :userinfos do |t 
+    create_table :userinfos do |t| 
     
       t.string :username
       t.integer :usernumber
